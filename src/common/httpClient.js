@@ -87,7 +87,9 @@ function ajax(url, options) {
 function getJson(url, response) {
   if (response && typeof response !== 'undefined') {
     return response.status !== 204 && response.status !== 401 && response.status !== 403
-    ? response.json()
+    // for block failed requests
+    // ? response.json()
+    ? null
     : null;
   }
 

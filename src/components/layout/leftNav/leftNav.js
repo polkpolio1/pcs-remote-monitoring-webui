@@ -17,7 +17,8 @@ const tabConfig = [
   { path: '/dashboard',    icon: DashboardIcon,    name: lang.DASHBOARD_LABEL },
   { path: '/devices',      icon: DevicesIcon,      name: lang.DEVICES },
   { path: '/rulesActions', icon: RulesActionsIcon, name: lang.RULES_ACTIONS },
-  { path: '/maintenance',  icon: MaintenanceIcon,  name: lang.MAINTENANCE }
+  { path: '/maintenance',  icon: MaintenanceIcon,  name: lang.MAINTENANCE },
+  { path: '/report',  icon: MaintenanceIcon,  name: lang.REPORT }
 ];
 
 class LeftNav extends Component {

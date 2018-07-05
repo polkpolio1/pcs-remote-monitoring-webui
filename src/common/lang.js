@@ -294,7 +294,8 @@ const lang = {
   WARNING: 'Warning',
   WARNINGS: 'Warnings',
   X509: 'X.509',
-  YES: 'Yes'
+  YES: 'Yes',
+  REPORT: 'Report',
 };
 
 export default lang;

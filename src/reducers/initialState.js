@@ -73,5 +73,11 @@ export default {
     twinUpdateJobs: [],
     propertyUpdateJobs: []
   },
-  rules: {}
+  rules: {},
+  report: {
+    fetching: false,
+    fetched: false,
+    data: {},
+    err: null
+  }
 };

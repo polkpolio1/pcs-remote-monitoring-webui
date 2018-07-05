@@ -11,6 +11,7 @@ import DevicesPage from "./components/pages/devices/devices.js";
 import RulesAndActionsPage from "./components/pages/rulesAndActions/rulesAndActions.js";
 import MaintenancePage from "./components/pages/maintenance/maintenance.js";
 import RuleDetailsPage from "./components/maintenance/ruleDetails.js";
+import ReportPage from "./components/pages/report/report.container.js";
 import MaintenanceWidget from "./components/maintenance/maintenanceWidget.js";
 import AlarmsByRuleGrid from "./components/maintenance/alarmsByRuleGrid.js";
 import SystemStatusDetailsGrid from "./components/systemStatusDetailsGrid/systemStatusDetailsGrid.js";
@@ -48,6 +49,7 @@ ReactDOM.render(
           <Route path="rule/:id" component={RuleDetailsPage} />
           <Route path="job/(:jobId)" component={SystemStatusDetailsGrid} />
         </Route>
+        <Route path="/report" component={ReportPage} />
       </Route>
     </Router>
   </Provider>,
